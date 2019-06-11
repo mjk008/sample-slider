@@ -141,7 +141,7 @@ nav {
 }
 
 .menu-toggle {
-left: 90%;
+  left: 90%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 2px;
