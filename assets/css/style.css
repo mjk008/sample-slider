@@ -40,15 +40,7 @@ body {
   color: white;
 }
 
-.page-tagline {
-  font-size: 0.75rem;
-  font-weight: 700;
-  z-index: 100;
-}
-.page-tagline a {
-  color: #123965;
-  text-decoration: none;
-}
+
 
 .page-title {
   margin-bottom: 1.5rem;
@@ -149,6 +141,7 @@ nav {
 }
 
 .menu-toggle {
+left: 90%;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 2px;
