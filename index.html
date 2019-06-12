@@ -17,9 +17,7 @@ body {
 
 body  {
   font-family: 'Open Sans Condensed', sans-serif;
-  background: #283048;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #00aeef;  /* fallback for old browsers */
   position: relative;
   display: block;
   width: 100%;
@@ -348,6 +346,7 @@ background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, F
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/trending.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
   </head>
 
 
@@ -603,11 +602,48 @@ background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, F
 
 <!-- End Of Trending Product Cards -->
 
+<!-- Timeline starts -->
+
+<section class="time"> 
+
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">Our Awesome Products</h2>
+    <h3 class="timeline-header__subtitle">What We Sell</h3>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item" data-text="Premium Gaming Products">
+      <div class="timeline__content"><img class="timeline__img" src="https://zebronics.com/uploads/homepage-category/7/zebronics-premium-gaming-chassis-helius.jpg"/>
+        <h2 class="timeline__content-title">Gaming</h2>
+        <p class="timeline__content-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ullam quos tenetur perspiciatis eos natus a eius eum fugit sequi qui, voluptas ipsum mollitia vitae tempora facere placeat numquam id?</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="BRING HOME THE PARTY">
+      <div class="timeline__content"><img class="timeline__img" src="https://zebronics.com/uploads/homepage-category/2/zebronics-trolley-speakers-pic.jpg"/>
+        <h2 class="timeline__content-title">Sound</h2>
+        <p class="timeline__content-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, similique quibusdam! Labore minus culpa sit eius, iusto illo obcaecati distinctio officia esse quos corrupti magnam veritatis odit doloribus pariatur recusandae?</p>
+      </div>
+    </div>
+    <div class="timeline-item" data-text="Headphones">
+      <div class="timeline__content"><img class="timeline__img" src="https://zebronics.com/uploads/homepage-category/5/regal-headphone-banner.png"/>
+        <h2 class="timeline__content-title">Headphones</h2>
+        <p class="timeline__content-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi quisquam mollitia hic, temporibus beatae, maxime nisi suscipit aut soluta accusamus adipisci. Saepe iure, dolorem eligendi quisquam veritatis architecto aspernatur eos.</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+</section>
+
+<!-- Timeline Ends -->
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
     <script src="assets/js/trending.js"></script>
     
     <script src="assets/js/demo.js"></script>
-
+    <script src="assets/js/timeline.js"></script>
   </body>
 </html>
